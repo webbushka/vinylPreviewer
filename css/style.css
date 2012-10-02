@@ -1,0 +1,86 @@
+@import url(smoothness/jquery-ui-1.8.1.custom.css);
+#noScript{text-align: center;}
+body{
+	font-family: sans-serif;
+}
+p{
+	margin: 0;
+}
+#results{
+	position: absolute;
+	top: 100px;
+	margin: 0 auto;
+	text-align: center;
+	width: 800px;
+}
+#preview{
+	margin: 0 auto;
+	margin-bottom: 200px;
+	width: 700px;
+}
+.option_btn{
+	writing-mode: tb-rl;
+	-webkit-transform:rotate(-90deg);
+	-moz-transform:rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	color: #ccc;
+	display: block;
+	white-space: nowrap;
+	width:20px;
+	height:20px;
+	font-size: 24px;
+	position: relative;
+	left: -25px;
+	text-decoration: none;
+}
+#font_btn{
+	top: 120px;
+}
+#color_btn{
+	top: 260px;
+}
+#theOptions{
+	height: 500px;
+	width: 800px;
+	border: #000 1px solid;
+	overflow: hidden;
+	margin: 0 auto;
+}
+#theOptions .options {
+	height: 100%;
+	width: 500px;
+	border: #f00 1px solid;
+	position: relative;
+	top: 0px;
+	z-index: 10;
+}
+#theOptions .off{
+	left: 800px;
+}
+#theOptions .on{
+	z-index: 100;
+	left: 500px;
+}
+.options{
+	background-color: #ccc;
+}
+#colors{
+	margin-top: -500px;
+}
+.done_btn{
+	text-decoration: none;
+	color: #000;
+	display: block;
+}
+.swatch{
+	height: 60px;
+	width: 60px;
+}
+#green{background: green;}
+#red{background: red;}
+#blue{background: blue;}
+#yellow{background: yellow;}
+#purple{background: purple;}
+#orange{background: orange;}
+.wwAlert, .ui-button-text-only, .ui-button-text{font-size: 12px;}
+.ui-dialog-title{font-size: 14px;}
